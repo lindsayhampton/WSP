@@ -1,0 +1,16 @@
+body{
+    font: 62.5% Helvetica, Arial, sans-serif;
+    margin: 50px;
+    background: url(../img/background.png);
+}
+
+#wrap {
+    background: #FFF;
+    width: 83%;
+    margin: 0 auto;
+}
+
+
+footer {
+    clear: both;
+}
