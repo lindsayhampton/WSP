@@ -1,16 +1,89 @@
-body{
-    font: 62.5% Helvetica, Arial, sans-serif;
-    margin: 50px;
-    background: url(../img/background.png);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, section, ::after, ::before {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
-#wrap {
-    background: #FFF;
-    width: 83%;
+
+body{
+    background: url(../img/background.png);
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+    margin: 0;
+    background: #1C3677;
+    height: 75px;
+    font-size: 12px;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    padding: 25px 70px 25px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #D3D3D3;
+}
+
+a:hover {
+    color: #FFF;
+}
+
+#content {
+    padding: 20px;
+    height: 300px;
+}
+
+#aboutMe {
+    width: 60%;
     margin: 0 auto;
 }
 
+#aboutMe img {
+    float: left;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+div {
+    background: #fff;
+    height: 1000px;
+}
+
+#no1, #no2, #no3, #no4 {
+    border-bottom: #D3D3D3 solid 1px;
+}
+
+#no1, #no2, #no3, #no4, #no5 {
+    margin: 0 auto;
+    width: 80%;
+}
 
 footer {
-    clear: both;
+    padding: 5px;
+    color: rgba(0,0,0,0);
 }
