@@ -20,18 +20,28 @@ menu, nav, output, section, ::after, ::before {
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url(../Roboto.ttf);
+}
 
 body{
     background: url(../img/background.png);
     margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
+
+/* Nav Styles */
 
 nav {
     margin: 0;
     background: #1C3677;
-    height: 75px;
+    height: 65px;
     font-size: 12px;
+}
+
+nav img {
+    float: left;
 }
 
 li {
@@ -48,30 +58,14 @@ a {
 
 a:hover {
     color: #FFF;
+    font-size: 16px;
 }
 
-#content {
-    padding: 20px;
-    height: 300px;
-}
-
-#aboutMe {
-    width: 60%;
-    margin: 0 auto;
-}
-
-#aboutMe img {
-    float: left;
-}
-
-h1 {
-    font-size: 40px;
-    margin: 0 auto;
-}
+/* Content Styles */
 
 div {
+    clear: both;
     background: #fff;
-    height: 1000px;
 }
 
 #no1, #no2, #no3, #no4 {
@@ -81,6 +75,48 @@ div {
 #no1, #no2, #no3, #no4, #no5 {
     margin: 0 auto;
     width: 80%;
+}
+
+#content {
+    width: 40%;
+    float: left;
+    padding: 15px;
+    margin-left: 17%;
+    line-height: 27px;
+    text-align: left;
+}
+
+article {
+    padding-bottom: 15px;
+}
+
+h1 {
+    margin-top: 15px;
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+}
+
+h2 {
+    padding: 5px 0 0 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 0;
+}
+
+img:nth-of-type(1) {
+    margin: 15px 0;
+}
+
+section {
+    text-align: center;
 }
 
 footer {
