@@ -21,6 +21,7 @@ body {
 }
 
 ul {
+    margin-top: 200px;
     font-family: "Changa One", cursive;
     border-bottom: solid 1px #ead7a8;
 }
