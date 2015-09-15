@@ -1,5 +1,10 @@
+@font-face {
+    font-family: url(../fonts/Roboto3.ttf);
+    src: "Roboto Condensed";
+}
+
 body {
-    font-family: "DIN Condensed Bold", Helvetica, sans-serif;
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
     text-align: center;
     text-transform: uppercase;
     background: url("../img/background3.jpg") no-repeat fixed;
@@ -7,7 +12,6 @@ body {
 
 #wrapper {
     width: 50%;
-    background: pink;
     margin: 0 auto;
 }
 
@@ -15,13 +19,13 @@ h2 {
     margin-top: 40%;
     font-family: Georgia, serif;
     font-size: 36px;
-    line-height: 15px;
+    line-height: 0;
     letter-spacing: 1px;
     color: rgba(255,255,255,0.65);
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 100px;
     line-height: 5px;
     margin-bottom: 80px;
     color: #fff;
