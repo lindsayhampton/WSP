@@ -1,0 +1,55 @@
+body {
+    box-sizing: border-box;
+}
+
+h1, form {
+    font-family: Futura Black, Helvetica, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    color: #8A8A8A;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 6px;
+    font-size: 44px;
+    color: #272727;
+    padding-top: 25px;
+    margin-bottom: 35px;
+}
+
+input[name=name], input[name=email], input[name=phone] {
+    width: 30%;
+    height: 25px;
+    background: #EEEEEE;
+    font-size: 13px;
+    border: none;
+    padding: 8px 0 5px 15px;
+}
+
+input[name=name], input[name=email] {
+    margin-right: 11.5px;
+}
+
+textarea {
+    margin: 15px 0 25px 0;
+    width: 98%;
+    padding: 10px 0 5px 15px;
+    height: 95px;
+    border: none;
+    background: #EEEEEE;
+    font-size: 13px;
+}
+
+input[type=submit] {
+    width: 131px;
+    height: 47px;
+    text-indent: -9999px;
+    border: none;
+    background: url('../img/button-01.png');
+}
+
+input[type=submit]:hover {
+    opacity: .5;
+}
