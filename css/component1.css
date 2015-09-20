@@ -29,7 +29,8 @@ ul {
 li {
     text-transform: lowercase;
     display: inline-block;
-    padding: 5px 11% 25px 15px;
+    padding: 5px 8% 25px 15px;
+    font-size: 19px;
 }
 
 li:last-child {
