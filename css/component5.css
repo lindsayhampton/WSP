@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #969494;
+}
+
+section {
+    border: solid 1px #e6e6e6;
+    width: 580px;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+h1, strong {
+    font-weight: normal;
+}
+
+h1 {
+    padding-top: 20px;
+    color: #4F4E4F;
+    font-size: 20px;
+}
+
+strong {
+    color: #35C6E9;
+    font-size: 16px;
+}
+
+a {
+    color: #7E57CC;
+    text-decoration: none;
+}
+
+#num {
+    display: block;
+    background: url(../img/phone-01.png) no-repeat;
+    height: 50px;
+    width: 175px;
+    margin: 0 auto;
+    text-indent: -9999px;
+}
+
+#sm a {
+    display: block;
+    text-indent: -9999px;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 0 auto;
+}
+
+#sm a:nth-of-type(1){
+    background: url(../img/fbook-01.png) no-repeat;
+}
+
+#sm a:nth-of-type(2){
+    background: url(../img/twitter-01.png) no-repeat;
+}
+
+#sm a:nth-of-type(3){
+    background: url(../img/cntc-01.png) no-repeat;
+}
